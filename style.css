@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+#audio1{
+    margin: 50px auto;
+    display: block;
+}
+#btn1{
+    position: absolute;
+}
+
+#fileUpload{
+    position: absolute;
+    background-color:  rgb(255, 255, 255) ;
+   
+}
+#fileUpload:hover{
+    position: absolute;
+    background-color:  white ;
+    animation-name: cbc;
+    animation-duration: 4s;
+}
+@keyframes cbc {
+    from{background-color: rgb(0, 255, 68)};
+    to {background-color: aqua;}
+
+}
+#micBtn{
+    position: absolute;
+}
+#pp{
+    position: absolute;
+    background-color: aquamarine;
+}
